@@ -15,6 +15,7 @@ Given n non-negative integers representing an elevation map where the width of e
 
 ## 💡 Intuition
 - The height of water above any block is given by the formula `min[maxSoFarRight, maxSoFarLeft] - height[i]`, where i is the block we are talking about.
+
 - We can use two pointer approach here because no matter how much high a piller is present in between the pillers we are currently studying about. we are only concerned about the height of __the max height of piller seen so far__, in both the left and right hand side. this is the nature of water, you can only trap water between two pillers that are on left and right, not on top of a piller if nothing is there to bound the water from both the sides. This is the key intuition to reducing space complexity of the problem
 
 > This intuition is not very intuitive and we can often forget about it, and it is not obvious form the first glance. we can however trace the algorightm by hand and then it will start to feel intuitive. 
