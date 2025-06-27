@@ -1,4 +1,4 @@
-# LC36 - Valid Sudoku
+# LC42 - Trapping Rain Water 
 
 **Date:** 2025-06-27
 **Status:** ✅ Solved  
