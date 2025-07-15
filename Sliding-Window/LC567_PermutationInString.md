@@ -160,7 +160,6 @@ public:
 ## 🧠 Lessons Learned
 
 - Writing approches and ideas and dry running code is actually a good way to solve problems and understand code.
-
-```
-
-```
+- Using a `matches` variable can significantly reduce the complexity of checking for permutations in sliding window problems.
+- Sliding window problems often require careful management of the window's boundaries and the elements within it.
+- Always consider edge cases, such as when `s1` is longer than `s2`, which can immediately return `false`.
